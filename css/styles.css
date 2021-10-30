@@ -1,6 +1,5 @@
 * {
   font-family: Sequel, sans-serif;
-  
 }
 
 h1 {
@@ -9,19 +8,19 @@ h1 {
   font-weight: 800;
   text-transform: uppercase;
 }
-h2{
-  text-transform: uppercase; 
-  font-size: 8vmin; 
+h2 {
+  text-transform: uppercase;
+  font-size: 8vmin;
   font-weight: 700;
   margin: 1rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-.h3Alt{
-  font-size: 6vmin; 
-  font-weight: 600; 
-  text-transform: none; 
+.h3Alt {
+  font-size: 6vmin;
+  font-weight: 600;
+  text-transform: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -36,8 +35,8 @@ h2{
   height: 100%;
 }
 
-p{
-  font-family: Trebuchet MS,Arial,sans-serif; 
+p {
+  font-family: Trebuchet MS, Arial, sans-serif;
   font-weight: 500;
 }
 
@@ -50,21 +49,24 @@ h4 {
   text-transform: uppercase;
 }
 
-#contact{
+#contact {
   font: 30px;
-  font-family: Domaine display narrow;
+  font-family: Domaine display narrow web;
 }
 
 .cardStyle {
   margin-bottom: 2rem;
 }
 
-.card{
-    margin: 1rem;
+.card {
+  margin: 1rem;
 }
 
 /* CSS Rules for intersection observer */
-h1, p, .card, h3 {
+h1,
+p,
+.card,
+h3 {
   opacity: 0;
   position: relative;
   bottom: -20px;
@@ -82,7 +84,6 @@ h1, p, .card, h3 {
   width: 22rem;
   height: 100%;
   z-index: 1;
-  
 }
 .zoom:hover {
   transform: scale(1.1);

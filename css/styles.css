@@ -89,7 +89,7 @@ h1, p, .card, h3 {
 
 @media (max-width: 576px) {
   #navigation {
-    background-color: rgb(255, 230, 5);
+    background-color: rgb(255, 238, 5);
   }
 }
 @media (max-width: 304px) {

@@ -19,7 +19,10 @@ h2{
 }
 
 .h3Alt{
-  font-size: 6vmin; font-weight: 400; text-transform: none; font-family: orpheous-pro;
+  font-size: 6vmin; 
+  font-weight: 600; 
+  text-transform: none; 
+  font-family: orpheous-pro, Arial, Helvetica, sans-serif;
 }
 
 #navbar {
@@ -49,7 +52,7 @@ h4 {
 
 #contact{
   font: 30px;
-  font-family: Domaine display narrow web;
+  font-family: Domaine display narrow;
 }
 
 .cardStyle {
@@ -96,21 +99,4 @@ h1, p, .card, h3 {
   #togglerIcon {
     size: 20%;
   }
-}
-
-@media (min-width: 992px) {
-}
-
-@media (min-width: 574px) {
-  @media (max-width: 681px) {
-  }
-}
-
-@media (max-width: 722px) {
-}
-
-@media (max-width: 492px) {
-}
-
-@media (max-width: 366px) {
 }

@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', setup);
 
 function setup(){
     const options= {
-        rootMargin: '0px 0px -200px 0px'
+        rootMargin: '0px 0px -100px 0px'
     }
 
     const observer = new IntersectionObserver((entries, observer) => {
@@ -26,16 +26,12 @@ paras.forEach(p => observer.observe(p));
 
 const cards = document.querySelectorAll('.card');
 cards.forEach(card => observer.observe(card));
+
+const allh3 = document.querySelectorAll('h3');
+allh3.forEach(h3 => observer.observe(h3));
 }
 
-
-/*const cards = document.querySelectorAll('.card');
-cards.forEach(card => card.addEventListener('mouseover', cardFocus));
-*/
 function cardFocus(){
-    const containers = document.querySelectorAll('.container-fluid');
-    containers.forEach(container => container.classList.add('cardHover'));
-
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => card.classList.add('zoom'));
    
@@ -43,8 +39,6 @@ function cardFocus(){
 
 
 function cardOut(){
-    const containers = document.querySelectorAll('.container-fluid');
-    containers.forEach(container => container.classList.remove('cardHover'));
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => card.classList.remove('zoom'));
 }

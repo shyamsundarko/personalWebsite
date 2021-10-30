@@ -1,12 +1,3 @@
-<!--font-family: Sequel, sans-serif
-    font-size: 9vw
-    line-height:0.9
-    font-weight:800
-    text-transform: uppercase;
-
-Main Tagline: For the love of web design
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,15 +14,16 @@ Main Tagline: For the love of web design
     <header>
         <nav class="navbar navbar-light navbar-expand-sm fixed-top" id="navbar">
             <div class="container-fluid" id="navigation" >
-                <img class="navbar-brand" src="./images/logo1.jpg" href="./index.html" id="logo"></img>
+                <img class="navbar-brand" src="./images/logo1.png" href="./index.html" id="logo"></img>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar" id="togglerIcon" style="border: none;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse text-center" id="Navbar">
                     <ul class="navbar-nav mr-auto" >
-                            <li class="nav-item"><a class="nav-link" href="#gallery" style="font-variant: small-caps;">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#reviews" style="font-variant: small-caps;">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contactForm" style="font-variant: small-caps;">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about" style="font-variant: small-caps;">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects" style="font-variant: small-caps;">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#skills" style="font-variant: small-caps;">Skills</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact" style="font-variant: small-caps;">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,29 +35,29 @@ Main Tagline: For the love of web design
               <div class="row justify-content-center">
                   <div class="col-auto">
                     <h1>Hi,<br>Palaniselvam Shyam Sundar here.</h1>
-                    <h6 class="lead" style="color: #e4c200; font-weight: 600;">You can call me Shyam.</h6>
+                    <h5 class="lead" style="color: #ffd82c; font-weight: 600;">You can call me Shyam.</h5>
                   </div>
               </div>
           </div>
       </div>
-      <div class="container-fluid" style="margin-top: 6rem; background-color: rgb(36, 36, 36); padding: 1.5rem;">
+      <div class="container-fluid" style="margin-top: 6rem; background-color: rgb(36, 36, 36); padding: 1rem;" id="about">
           <div class="row justify-content-center align-items-center" style="margin-left: 1rem; margin-right: 1rem;">
               
-              <div class="col-xs-5 col-md-4">
-                  <img src="./images/shyam.jpeg" alt="A picture of Shyam" style="width: 50vmin; height: 50vmin; float: left;">
+              <div class="col-auto">
+                  <img src="./images/shyam.jpeg" alt="A picture of Shyam" style="width: 50vmin; height: 50vmin;">
               </div>
-              <div class="col-xs-7 col-md-5 offset-1">
-                <h3 class="text-center text-white" style="font-variant:small-caps;">About</h3>
-              <p class="text-white ">Lorem ipsum dolor sit amet, c adipisci aliquid itaque ipsam ducimus perspiciatis reprehenderit quos, porro laboriosam asperiores fugit alias. Porro, ratione!</p>
+              <div class="col-auto" style="width: 50vmax;">
+                <h3 class="text-center text-white h3Alt" style="font-variant:small-caps;">About</h3>
+              <p class="text-white text-center" style=" color: rgb(224, 224, 224);">Hello! I am a Computer Science student at Nanyang Technological University with a passion for software development. I am an aspriring Full-Stack Web Developer with the drive to always better myself. <br>Being a  professional photographer, I have an eye for all things beautiful and aim to reflect that on all the websites I create. </p>
             </div>
           </div>
       </div>  
       <!--Cards with Projects-->
       
-        <div class="bgColorInFocus container-fluid" style="padding-top: 3rem;">
+        <div class="container-fluid" style="padding-top: 3rem;" id="projects">
             <div class="row justify-content-center" style="margin-bottom: 3rem;">
                 <div class="col-auto">
-                    <h3 class="text-center" style="font-size: 5vmin; font-weight: 400; text-transform: none; font-family: orpheous-pro;">Everything Development.</h3>
+                    <h3 class="h3Alt text-center">Everything Development.</h3>
                 </div>
             </div>
             <div class="row row-content align-items-center justify-content-center" style="margin: 1rem;">
@@ -76,7 +68,7 @@ Main Tagline: For the love of web design
                         </a>
                         <div class="card-body bg-dark text-white">
                             <div class="card-title"><h4>Photography Portfolio</h4></div>
-                            <p>As a freelance photographer, a website is important for me to showcase my work and get more reach. I have made a responsive website for this!</p>
+                            <p style="height: 7rem;">As a freelance photographer, a website is important for me to showcase my work and get more reach. I have made a responsive website for this!</p>
                         </div>
                     </div>
                 </div>
@@ -87,7 +79,7 @@ Main Tagline: For the love of web design
                         </a>
                         <div class="card-body bg-dark text-white">
                             <div class="card-title"><h4>Authentication System</h4></div>
-                            <p>As a freelance photographer, a website is important for me to showcase my work and get more reach. I have made a responsive website for this!</p>
+                            <p style="height: 7rem;">This is an authentication system which allows users to create an account and sign in. SQL is used to store user data.</p>
                         </div>
                     </div>
                 </div>
@@ -97,35 +89,157 @@ Main Tagline: For the love of web design
                             <img class="card-img-top" src="./images/card3.jpg" alt="DengueGO mobile application link github">
                         </a>
                         <div class="card-body bg-dark text-white">
-                            <div class="card-title"><h4>DengueGO Mobile Application</h4></div>
-                            <p>As a freelance photographer, a website is important for me to showcase my work and get more reach. I have made a responsive website for this!</p>
+                            <div class="card-title"><h4>DengueGO! Mobile Application</h4></div>
+                            <p style="height: 7rem;">Application created using Flutter to help alleviate the rising Dengue cases in Singapore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto text-center">
+                    <div class="card cardStyle" style="width: 18rem;" onmouseover="cardFocus()" onmouseout="cardOut()">
+                        <a href="https://github.com/shyamsundarko/Joke-Recommender-System" target="_blank"  style="height: 14rem;">
+                            <img class="card-img-top" src="./images/card4.jpg" alt="Joke Recommender System link github">
+                        </a>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title"><h4>Joke Recommender</h4></div>
+                            <p style="height: 7rem;">As part of my Data Science project, we created a Joke Recommender System using existing datasets. Two  systems were built - Simple & Complex.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto text-center">
+                    <div class="card cardStyle" style="width: 18rem;" onmouseover="cardFocus()" onmouseout="cardOut()">
+                        <a href="https://github.com/shyamsundarko/NTU-Stars-Planner" target="_blank"  style="height: 14rem;">
+                            <img class="card-img-top" src="./images/card5.jpg" alt="NTU-Stars-Planner link github">
+                        </a>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title"><h4>NTU STARS Planner</h4></div>
+                            <p style="height: 7rem;">This is a project that was part of a module I took at NTU. STARS is a system used to aid in the entire course registration process.</p>
                         </div>
                     </div>
                 </div>
             </div>    
         </div>
       
-      
-        <div class="container"> <!--Skills portion-->
-            <div class="row">
-                <div class="col">
-
+      <!--Skills portion-->
+        <div id="skills" class="container-fluid text-white" style="background-color: rgb(36, 36, 36); padding-top: 3rem; padding-bottom: 3rem;"> 
+            <div class="row align-items-center justify-content-center">
+                <div class="col-auto">
+                    <h3 class="h3Alt" style="font-variant: small-caps;">Skills</h3>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center" style="margin-top: 1rem;">
+                <div class="col-auto">
+                    <h5 style="font-weight: 600; font-variant: small-caps;">Languages</h5>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center" style="margin-top: 1rem; margin-left: 3rem; margin-right: 3rem;">
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/java.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/c++.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/js.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/html5.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/css3.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/python.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/sql.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center" style="margin-top: 4rem;">
+                <div class="col-auto">
+                    <h5 style="font-weight: 600; font-variant: small-caps;">Tools and Technologies</h5>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center" style="margin-top: 1rem; margin-left: 3rem; margin-right: 3rem;">
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/git.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/Flutter.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/android.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/figma.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center" style="margin-top: 4rem;">
+                <div class="col-auto">
+                    <h5 style="font-weight: 600; font-variant: small-caps;">Currently Learning</h5>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center" style="margin-top: 1rem; margin-left: 3rem; margin-right: 3rem;">
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/node.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/react.png" alt="" style="height: 4rem;">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card" style="width: 6rem; padding: 1rem;">
+                            <img class="card-img-top" src="./images/mongo.png" alt="" style="height: 4rem;">
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <div class="container-fluid" style="background-color: rgb(24, 24, 24); padding: 5rem;">
-            <div class="row ">
-                <div class="col">
-
+        <div id="contact" class="container-fluid" style="background-color: rgb(24, 24, 24); padding: 5rem;">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-auto">
+                    <ul role="list">
+                        <li class="list-item">
+                            <a href="mailto:shyamsundarko@gmail.com" style="color: #E1A87A;">shyamsundarko@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-auto">
+                    <h3 class="text-white" id="contact" style="margin-left: 2rem;">Say hello.</h3>
                 </div>
             </div>
         </div>
         <div class="container-fluid" style="background-color: rgb(24, 24, 24); padding:2rem; border-top: solid;">
             <div class="row justify-content-center align-items-center">
                 <div class="col-auto">
-                    <h6 class="text-white">@ Copyright SHYAM SUNDAR, 2021. All Rights Reserved.</h6>
+                    <h6 class="text-white" style="font-family: Domaine display narrow web;">@ Copyright SHYAM SUNDAR, 2021. All Rights Reserved.</h6>
                 </div>
             </div>
         </div>
